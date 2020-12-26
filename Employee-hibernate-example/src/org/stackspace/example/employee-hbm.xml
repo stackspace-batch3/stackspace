@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="org.stackspace.example">
+	<class name="Employee" table="EMPLOYEE">
+
+		<id name="pkId" column="PK_ID">
+			<generator class="identity" />
+		</id>
+
+		<property name="empId" column="EMP_ID" type="int" />
+		<property name="name" column="EMP_NAME" />
+		<property name="skills" column="SKILLS" />
+	</class>
+</hibernate-mapping>

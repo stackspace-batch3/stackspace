@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="org.stackspace.example.Student" table="STUDENT">
+		<id name="pkId" column="ID">
+			<generator class="identity"></generator>
+		</id>
+		
+		<property name="name" column="STUDENT_NAME"></property>
+		<property name="studentId" column="STUDENT_ID"></property>
+		<property name="branch" column="BRANCH"></property>
+		<property name="gender" column="GENDER"></property>
+	</class>
+</hibernate-mapping>

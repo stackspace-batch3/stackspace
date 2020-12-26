@@ -1,0 +1,43 @@
+<bgv-pending-emp-info>
+	<emp-info>
+		<emp-id>1421</emp-id>
+		<exp-info>
+			<company-name>IBM</company-name>
+			<prv-company-empId>IBM-123</prv-company-empId>
+		</exp-info>
+
+		<exp-info>
+			<company-name>CTS</company-name>
+			<prv-company-empId>CTS-123</prv-company-empId>
+		</exp-info>
+	</emp-info>
+
+
+	<emp-info>
+		<emp-id>1423</emp-id>
+		<exp-info>
+			<company-name>GOOGLE</company-name>
+			<prv-company-empId>G-123</prv-company-empId>
+		</exp-info>
+
+		<exp-info>
+			<company-name>ADP</company-name>
+			<prv-company-empId>APD-123</prv-company-empId>
+		</exp-info>
+	</emp-info>
+
+
+	<emp-info>
+		<emp-id>1425</emp-id>
+		<exp-info>
+			<company-name>Xyz</company-name>
+			<prv-company-empId>G-123</prv-company-empId>
+		</exp-info>
+
+		<exp-info>
+			<company-name>abc</company-name>
+			<prv-company-empId>APD-123</prv-company-empId>
+		</exp-info>
+	</emp-info>
+
+</bgv-pending-emp-info>
